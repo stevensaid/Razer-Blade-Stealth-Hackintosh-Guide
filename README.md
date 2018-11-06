@@ -21,7 +21,7 @@ This laptop setup appears to be inline with a mid-2017 15" Macbook Pro with the 
 
 * Wifi will not work natively, it will require a USB dongle or a new card to be installed. I bought a `Broadcom BCM94352Z DW1560 802.11ac Wifi Bluetooth 4.0 M.2` from eBay, opened up the laptop and replaced the existing card with the Broadcom one.  After that change, both wifi and Bluetooth work fine, for a cost of about $30.
 
-* The laptop will only boot reliably in verbose mode (`-v` in the boot flags).  I can't quite figure out why, and I'm sure it's something relatively easy to fix, but I haven't really been bothered by it.
+~~* The laptop will only boot reliably in verbose mode (`-v` in the boot flags).  I can't quite figure out why, and I'm sure it's something relatively easy to fix, but I haven't really been bothered by it.~~ Fixed with NVME file in patched folder
 
 * I haven't gotten Thunderbolt 3 to work.  I don't have a TB3 device to test with, but it does work as a USB3.1 port.  I'm just not sure if hotswap on the USB3.1 port is working.  I tested an ethernet dongle and it worked fine, but TB3-->HDMI didn't seem to work.
 
